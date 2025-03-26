@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Drop-Box</title>
 </head>
@@ -12,8 +15,21 @@
     <!-- HEADER -->
     <header class="header">
         <div class="flex">
-            <div class="header-left"></div>
-            <div class="header-right"></div>
+            <div class="header-left">
+                <div class="logo"><img src="img/logo-small.png" alt="">
+                    <a href="">Perchè DropBox</a>
+                    <a href="">Funzioni</a>
+                    <a href="">Piani e Prezzi</a>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="logo">
+                    <a href="#">Supporto</a>
+                    <a href="#">Contatta l'ufficio vendite</a>
+                    <a href="#">Accedi</a>
+                    <a class="inizia" href="#">Inizia</a>
+                </div>
+            </div>
         </div>
     </header>
     <!-- HEADER -->
@@ -23,25 +39,23 @@
         <!-- BIG-SECTION -->
         <section class="hero-section">
             <div class="big-container">
+                <div class="title">
+                    <h1>Tutto ciò che ti serve per il
+                        lavoro, in un unico posto </h1>
+                </div>
                 <div class="flex">
-                    <!-- TITOLO -->
-                    <div class="title">
-                        <h1></h1>
-                    </div>
-                    <!-- TITOLO -->
                     <div class="paragraph">
-                        <p></p>
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
+                            posto.
+                            DropBox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente de
+                            integrato per ottimizzare
+                            il flusso di lavoro eistente.</p>
+                        <a class="inizia-2" href="#">Inizia la tua prova gratuita</a>
+                        <p>Annulla in qualsiasi momento</p>
                     </div>
-                    <!-- BOTTONE -->
-                    <div class="buttton">
-                        <button></button>
+                    <div class="section-2">
+                        <img class="image-1" src="img/jumbo.png" alt="">
                     </div>
-                    <!-- IMG -->
-                    <div class="image">
-                        <img src="" alt="">
-                    </div>
-                    <!-- IMG -->
-
                 </div>
             </div>
         </section>
@@ -49,40 +63,70 @@
 
         <section class="contain">
             <div class="container">
-                <div class="flex">
-                    <div class="title-2"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="block"></div>
+                <div class="title-2">
+                    <h2>Trova il piano business che fa per te </h2>
                 </div>
+                <div class="radio">
+                    <input type="radio" name="mensile" id="mensile">
+                    <span>Fatturazione mensile</span>
+                    <input type="radio" name="annuale" id="annuale">
+                    <span>Fatturazione annuale</span>
+                </div>
+
+
+                <div class="flex">
+                    <div class="col">
+                        <div class="id">
+                            <i class="fa-solid fa-user"></i>
+                            <p>singolo</p>
+                        </div>
+                        <div class="professional">
+                            <h3>Professional</h3>
+                            <span><strong>&euro; 12.00</strong></span>
+                            <p>/mese</p>
+                        </div>
+                        <div class="info">
+                            <p>1 utente</p>
+                        </div>
+                    </div>
+                    <div class="col">Col 2</div>
+                    <div class="col">Col 3</div>
+                </div>
+                <div class="block">Blocco</div>
             </div>
         </section>
         <!-- SEZIONE CONTATTO -->
         <section>
             <div class="container">
                 <div class="flex">
-                    <div class="img"></div>
-                    <div class="contact"></div>
-                    <div class="business">
-                        <h2></h2>
-                    </div>
-                    <!-- GRIGLIA -->
-                    <div class="col-2"></div>
-                    <div class="col-2"></div>
-                    <div class="col-2"></div>
-                    <div class="col-2"></div>
-                    <div class="col-2"></div>
-                    <div class="col-2"></div>
-                    <!-- GRIGLIA -->
-                    <div class="fine">
-                        <h2></h2>
-                        <a class="client" href=""></a>
+                    <div class="section-3"><img src="img/partner.png" alt=""></div>
+                    <div class="contact">
+                        <h2>entra a far parte del contatto spaziale </h2>
                     </div>
                 </div>
             </div>
         </section>
         <!-- SEZIONE CONTATTO -->
+
+        <!-- OPERAZIONI BUSINESS -->
+        <section>
+            <div class="container">
+                <div class="paragrafo-2">
+                    <h2>Esegui piu operaizoni con drropbox</h2>
+                </div>
+                <div class="flex">
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="fine-main">
+                    <h2>piu di 5000 </h2>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- FINE MAIN -->
 
@@ -92,8 +136,11 @@
             <div class="end-container">
                 <div class="flex">
                     <!-- PRIMA LISTA -->
-                    <ul>
-                        <li class="name"></li>
+
+                    <ul class="footer-list">
+                        <li>
+                            <h4>DropBox</h4>
+                        </li>
                         <li></li>
                         <li></li>
                         <li></li>
@@ -102,48 +149,19 @@
                     </ul>
                     <!-- PRIMA LISTA -->
                     <!-- SECONDA LISTA -->
-                    <ul>
-                        <li class="name"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+
                     <!-- SECONDA LISTA -->
                     <!-- TERZA LISTA -->
-                    <ul>
-                        <li class="name"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+
                     <!-- TERZA LISTA -->
 
                     <!-- QUARTA LISTA -->
 
-                    <ul>
-                        <li class="name"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
 
                     <!-- QUARTA LISTA -->
 
                     <!-- QUINTA LISTA -->
-                    <ul>
-                        <li class="name"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+
                     <!-- QUINTA LISTA -->
                 </div>
             </div>
