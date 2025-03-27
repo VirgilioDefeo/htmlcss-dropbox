@@ -14,11 +14,6 @@ body {
 
 
 /* HEADER */
-.header-left,
-.header-right {
-    width: 500px;
-    height: 60px;
-}
 
 .logo {
     display: flex;
@@ -32,6 +27,10 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+.anchor{
+    text-decoration: none;
+    color:;
 }
 
 .inizia {
@@ -58,12 +57,11 @@ a {
     justify-content: space-between;
 }
 
+
 .container {
     margin: 0 auto;
     width: 60%;
     max-width: 1000px;
-    background-color: lightgoldenrodyellow;
-    margin-top: 100px;
 }
 
 
@@ -74,7 +72,6 @@ a {
 }
 
 .big-container {
-    /* position: relative; */
     margin: 0 auto;
     max-width: 1000px;
     width: 70%;
@@ -88,26 +85,24 @@ a {
     height: 200px;
 }
 
-
-
-
-/* MAIN */
-
-.title {
-    padding-top: 50px;
-    font-size: 45px;
-    font-weight: ;
-
-
+/* UTILITIES*/
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
+
+.mb-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.py-10{
+    margin-top: 20px;
+}
+/* MAIN */
 
 .paragraph {
     width: 30%;
-    padding-top: 30px;
-
-    line-height: 20px;
-
-
 }
 
 
@@ -133,9 +128,6 @@ a {
 
 /* SECTION2 */
 
-.contain {
-    margin-top: 20%;
-}
 
 .title-2 {
     height: 100px;
@@ -146,22 +138,39 @@ a {
     margin-bottom: 20px;
 }
 
-.radio-1{
-}
 
 
 .col {
     width: 30%;
-    height: 400px;
+    height:auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 12px;
     border: 1px solid black;
-
 }
 
+.professional{
+    padding-left: 20px;
+    line-height:30px;
+}
+
+
 .block {
-    border: 1px solid white;
+    border: 1px solid black;
+    height:200px;
+}
+
+.block-1{
+    height: 40px;
+}
+
+
+.col-20{
+    width: 20%;
     height: 200px;
+    border: 1px solid white;
+   
+    
 }
 
 
@@ -182,7 +191,7 @@ a {
 
 .col-2 {
     width: 30%;
-    height: 400px;
+    height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid black;
@@ -196,6 +205,7 @@ a {
 
 /* FOOTER */
 .footer{
+    padding: 80px 0 40px;
     background-color: black;
 }
 
@@ -214,4 +224,30 @@ a {
     gap:5px;
     padding: 5px;
     border: 1px solid lightgray;
+}
+
+.info{
+    padding-left: 20px;
+}
+
+ul{
+
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+hr{
+ width: 30%;
+ margin-left: 20px;
+}
+
+.salienti{
+    margin-left: 20px;
+}
+
+
+.inizia-4{
+    display: flex;
+    justify-content: flex-end;
+
 }
